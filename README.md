@@ -4,7 +4,7 @@
 ---
 
 ### 📊 Project Architecture
-Screenshot 2026-01-04 183350
+![Project Architecture](image_0f3ec4.jpg)
 
 ### 💡 The Problem & Solution
 * **The Challenge**: Manual review of enterprise agreements (like NDAs or Service Contracts) is time-consuming and prone to human oversight regarding legal risks.
