@@ -30,3 +30,9 @@ Processing: The system splits text into chunks using the Recursive Character Tex
 Analysis: The AI Agent queries the database and applies strategic logic to the retrieved content.
 
 Delivery: A structured report is provided back to the user in real-time.
+
+### 📥 How to Use This Workflow
+1. Download the `RAG_Agent.json` file from this repository.
+2. Open your **n8n** instance.
+3. Create a new workflow and select **Import from File**.
+4. Add your **OpenAI API Key** to the Chat Model and Embeddings nodes to activate the Strategic Analyst.
