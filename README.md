@@ -1,33 +1,29 @@
-🚀 AI Strategic Analyst Agent (RAG-Based)
-Project Overview
-This project demonstrates an end-to-end Retrieval-Augmented Generation (RAG) pipeline designed for enterprise document intelligence. The agent acts as a Senior AI Strategy Consultant, transforming raw business documents into structured executive reports.
+# 🤖 Strategic AI Analyst: Enterprise RAG Agent
+> **Automating high-level document intelligence using n8n and GPT-4.**
 
-Key Features
-Intelligent Extraction: Uses an automated workflow to ingest PDFs or text-based agreements.
+---
 
-Vectorized Memory: Implements a Simple Vector Store and Embeddings (OpenAI) to retrieve contextually relevant data for analysis.
+### 📊 Project Architecture
+Screenshot 2026-01-04 183350
 
-Strategic Persona: Programmed with custom System Prompts to enforce MBA-level analysis focusing on risk mitigation and strategic growth.
+### 💡 The Problem & Solution
+* **The Challenge**: Manual review of enterprise agreements (like NDAs or Service Contracts) is time-consuming and prone to human oversight regarding legal risks.
+* **The Solution**: A **Retrieval-Augmented Generation (RAG)** agent that uses a vectorized document store to provide instant strategic analysis.
 
-Structured Output: Automatically generates a three-pillar report consisting of:
+### 🛠️ Technical Implementation
+| Component | Technology | Role |
+| :--- | :--- | :--- |
+| **Orchestration** | n8n | Logic Flow & Node Management |
+| **LLM** | OpenAI GPT-4 | Strategic Reasoning |
+| **Vector DB** | Simple Vector Store | Contextual Document Memory |
+| **Embeddings** | OpenAI Embeddings | Data Vectorization |
 
-Summary
+---
 
-Key Risks
-
-Actionable Recommendations
-
-Technical Stack
-Orchestration: n8n (Low-code workflow automation)
-
-LLM: OpenAI GPT-4
-
-Database: Simple Vector Store for RAG-based retrieval
-
-Memory: Simple Memory for contextual chat persistence
-
-How it Works
-Input: User uploads a document or pastes text into the n8n Chat Interface.
+### 🚀 Key Capabilities
+1. **Executive Summary**: Instant 30,000-ft view of any agreement.
+2. **Risk Identification**: Automated detection of missing clauses, vague payment terms, or duration gaps.
+3. **Actionable Recommendations**: Strategic advice based on a Senior Consultant persona.
 
 Processing: The system splits text into chunks using the Recursive Character Text Splitter and stores them in a vector database.
 
