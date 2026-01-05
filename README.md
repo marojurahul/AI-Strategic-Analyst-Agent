@@ -34,12 +34,15 @@ Delivery: A structured report is provided back to the user in real-time.
 ### 📂 Case Study: Engineering for Enterprise Logic
 
 **Why RAG?**
+
 I chose a Retrieval-Augmented Generation based architecture to ensure the AI remains grounded in the specific contract uploaded. This prevents "hallucinations" and ensures the analysis is based solely on the provided text.
 
 **Why n8n?**
+
 I utilized n8n as the orchestrator to manage the multi-step lifecycle of document intelligence. It bridges the gap between user chat inputs, file management, and vectorized memory in a single workflow.
 
 **Technical Constraint: Recursive Chunking**
+
 I implemented a Recursive Character Text Splitter because legal documents have complex, hierarchical structures. This ensures the AI analyzes paragraphs and clauses in their full context.
 
 ### 📥 How to Use This Workflow
